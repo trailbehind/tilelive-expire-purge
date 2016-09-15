@@ -1,0 +1,45 @@
+{
+  "name": "tilelive-expire-purge",
+  "version": "1.0.0",
+  "description": "Tilelive module for expiring tiles from a proxy with a PURGE request when a tile is updated",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "tilelive": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trailbehind/tilelive-expire-purge.git"
+  },
+  "keywords": [
+    "tilelive",
+    "cdn",
+    "varnish",
+    "purge"
+  ],
+  "_npmUser": {
+    "name": "jessecrocker",
+    "email": "jesse@gaiagps.com"
+  },
+  "author": "Jesse Crocker",
+  "maintainers": [
+    {
+      "name": "Jesse Crocker",
+      "email": "jesse@gaiagps.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trailbehind/tilelive-expire-purge/issues"
+  },
+  "homepage": "https://github.com/trailbehind/tilelive-expire-purge#readme"
+}

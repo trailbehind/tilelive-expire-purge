@@ -1,0 +1,9 @@
+{
+    "source": "file:///tmp/sink/",
+    "purgeUrlTemplate": "http://localhost:8888/{{zoom}}",
+    "method": "GET",
+    "headers": {
+        "key": "z{{zoom}}/x{{x}}/y{{y}}",
+        "otherheader": "foo"
+    } 
+}

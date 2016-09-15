@@ -1,0 +1,6 @@
+{
+    "contours": {
+        "source": "tilejson+http://vector-tiles-testing.gaiagps.com.s3-website-us-east-1.amazonaws.com/contours-meters.json",
+        "destination": "expirepurge:///Users/jesse/projects/tile-squirrel/node_modules/tilelive-expire-purge/test/testConfig.json"
+	}
+}
