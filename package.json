@@ -7,7 +7,9 @@
     "test": "test"
   },
   "dependencies": {
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "q": "~1",
+    "request": "~2"
   },
   "devDependencies": {},
   "peerDependencies": {
