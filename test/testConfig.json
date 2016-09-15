@@ -1,5 +1,5 @@
 {
-    "source": "file:///tmp/sink/",
+    "destination": "file:///tmp/sink/",
     "purgeUrlTemplate": "http://localhost:8888/{{zoom}}",
     "method": "GET",
     "headers": {
