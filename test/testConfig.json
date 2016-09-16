@@ -1,9 +1,20 @@
 {
     "destination": "file:///tmp/sink/",
-    "purgeUrlTemplate": "http://localhost:8888/{{zoom}}",
-    "method": "GET",
-    "headers": {
-        "key": "z{{zoom}}/x{{x}}/y{{y}}",
-        "otherheader": "foo"
-    } 
+    "requests": [
+        {
+            "urlTemplate": "http://localhost:8888/a/{{zoom}}",
+            "method": "GET",
+            "headers": {
+                "key": "z{{zoom}}/x{{x}}/y{{y}}",
+                "auth": "123"
+            }
+        },
+        {
+            "urlTemplate": "http://localhost:8888/b/{{zoom}}/{{x}}/{{y}}",
+            "method": "GET",
+            "headers": {
+                "Fastly-Key": "abc"
+            }
+        }
+    ]
 }
